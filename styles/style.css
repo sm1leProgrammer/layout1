@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    width: 1440px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+/**HEADER STYLES**/
+.header{
+    height: 100px;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 4px 7px 0px rgba(129, 129, 129, 0.25);
+    background-color: white;
+    
+}
+
+.menu__ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu__navigation {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.menu__link{
+    color: #000;
+    font-size: 16px;
+    letter-spacing: -0.24px;
+    text-transform: capitalize;
+}
+
+.menu__logo{
+    color: #05A88D;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-left: 211px;
+    margin-right: 307px;
+
+}
+
+.menu__autorization {
+    display: flex;
+    flex-direction: row;
+    margin: 27px 70px 28px;
+    align-items: center;
+}
+
+.menu__signup{
+    border-radius: 3px;
+    border: 1px solid #05A88D;
+    width: 105px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__signup:hover{
+    color:white;
+    background: #05A88D;
+}
+
+a{
+    color: #000;
+}
+
+.menu__nav__gap {
+    gap: 40px;
+}
+
+.menu__aut__gap {
+    gap: 65.5px;
+}
+
+.another_color{
+    color: #05A88D;
+}
+
+/**MAIN CONTENT STYLES**/
+
+.container{
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #15638F;
+}
+
+.card{
+    width: 200px;
+    height: 322px;
+    margin-top: 68px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.30);
+    position: relative;
+}
+
+.card__image{
+    height: 142px;
+    width: 200px;
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.card__title{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 158px;
+    right: 55px;
+    bottom: 148px;
+    left: 16px;
+}
+
+.card__text{
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    top: 190px;
+    right: 19px;
+    bottom: 59px;
+    left: 16px;
+}
+
+.card__btn{
+    border-radius: 50px;
+    background: #2797B2;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 278px;
+    right: 86px;
+    bottom: 17px;
+    left: 16px;
+}
+
+.card__btn:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/**FOOTER STYLES**/
+
+.footer{
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #05A88D;
+    padding: 44px 40px 36px 40px;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #FFF;
+}
+
+.footer__top--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.footer__logo{
+    color: #F1E67D;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.42px;
+    padding-bottom: 22px;
+}
+
+.footer__text{
+    display: flex;
+    align-items: center;
+    width: 437px;
+    height: 46px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+}
+
+.footer__top--right{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__contact{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.21px;
+    text-transform: uppercase;
+}
+
+.footer__phone{
+    color: #F1E67D;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+}
+
+.footer__address{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+}
+
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+}
